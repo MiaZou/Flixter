@@ -1,4 +1,5 @@
 class LessonsController < ApplicationController
+  skip_before_filter :verify_authenticity_token, :only => [:index, :show]
   before_action :authenticate_user!
   before_action :require_enrollment, only: [:show]
 
