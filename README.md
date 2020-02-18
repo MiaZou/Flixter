@@ -6,6 +6,8 @@ Flixter is a two-sided (instructor & student) online lecturing application with 
 <img src="app/assets/images/flixterAddNewCourse.jpg">
 <img src="app/assets/images/flixterLogin.jpg">
 
+Heroku Link: https://flixter-mia-zou.herokuapp.com/
+
 ### Prerequisites
 
 What things you need to install the software:
