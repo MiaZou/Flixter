@@ -1,25 +1,44 @@
-# README
+# Flixter
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Flixter is a two-sided (instructor & student) online lecturing application with features of video uploading (Amazon S3), credit card payment capabilities (Stripe API), database relationships(PostgreSQL). 
 
-Things you may want to cover:
+<img src="app/assets/images/flixter.jpg">
+<img src="app/assets/images/flixterAddNewCourse.jpg">
+<img src="app/assets/images/flixterLogin.jpg">
 
-* Ruby version
+### Prerequisites
 
-* System dependencies
+What things you need to install the software:
 
-* Configuration
+* [VirtualBox]
+* [PostgreSQL]
 
-* Database creation
 
-* Database initialization
+### Installation
 
-* How to run the test suite
+First, download the project, move the project to vagrant folder, and start VirtualBox.
 
-* Services (job queues, cache servers, search engines, etc.)
+```sh
+$ cd Flixter
+$ vagrant up
+$ vagrant ssh
+```
 
-* Deployment instructions
+Then, run database migration
 
-* ...
-# Bootcamp-flixter-mz
+```sh
+$ rake db:create
+$ rake db:migrate
+```
+
+Start rails server on localhost
+
+```sh
+$ rails server -b 0.0.0.0 -p 3000
+```
+
+Open localhost in your browser, you will see Nomster web application running!
+
+### Edit Project
+
+You can edit this project by opening directory on your code editor and editing as you wish.
