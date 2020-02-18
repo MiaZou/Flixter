@@ -4,7 +4,7 @@ Flixter is a two-sided (instructor & student) online lecturing application with 
 
 <img src="app/assets/images/flixter.jpg">
 <img src="app/assets/images/flixterAddNewCourse.jpg">
-<img src="app/assets/images/flixterLogin.jpg">
+<img src="app/assets/images/flixterLogIn.jpg">
 
 Heroku Link: https://flixter-mia-zou.herokuapp.com/
 
