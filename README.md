@@ -1,6 +1,6 @@
 # Flixter
 
-Flixter is a two-sided (instructor & student) online lecturing application with features of video uploading (Amazon S3), credit card payment capabilities (Stripe API), database relationships(PostgreSQL). 
+Flixter is a two-sided (instructor & student) online lecturing application with features of video uploading (Amazon S3), credit card payment capabilities (Stripe API), database relationships (PostgreSQL). 
 
 <img src="app/assets/images/flixter.jpg">
 <img src="app/assets/images/flixterAddNewCourse.jpg">
